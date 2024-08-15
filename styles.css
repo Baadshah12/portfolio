@@ -1,0 +1,77 @@
+body {
+    font-family:Lucida Fax , sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+   display: block;
+}
+
+nav ul li a:hover {
+    background-color:lightblue ;
+}
+
+section {
+    padding: left;
+    margin: left;
+    padding:50px;
+    margin:50px;
+   
+   
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+ul {
+    list-style-type: italic;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #4682b4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
